@@ -67,10 +67,10 @@ The primary goal of this project is to develop a machine learning model that acc
 
 ### Results Summary
 
-#### Model Performance
-
 - **Random Forest**: Achieved the highest accuracy in predicting crop yields, outperforming other models due to its ability to handle non-linear relationships and feature interactions.
 - **Decision Tree & Linear Regression**: Delivered reasonable accuracy but were less effective than ensemble methods.
+
+-
 
 #### Feature Importance
 Key factors influencing crop yield:
@@ -96,6 +96,11 @@ Key factors influencing crop yield:
 | RandomForestRegressor        | 0.6843   | 2,340,361,523.52    | 32,465.17         |
 | MLPRegressor                 | 0.2311   | 5,699,411,261.97    | 52,462.39         |
 | SVR                          | -0.1954  | 8,860,718,236.70    | 57,349.23         |
+
+ **Best Model Overall**: The **DecisionTreeRegressor** outperformed all other models with the highest R², lowest Mean Error, and lowest Absolute Error, making it the most reliable choice for crop yield prediction.  
+- **Runner-Up**: The **GradientBoostingRegressor** also exhibited strong performance, consistently ranking among the top models across all metrics.
+#### Model Performance
+
 ---
 ### Future Work
 - Integration of real-time data for continuous monitoring and prediction.
